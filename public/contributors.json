@@ -10,5 +10,11 @@
     "caption": "This is Rockette, my happy coding buddy.",
     "image": "/dogs/rockette.jpg",
      "github": "https://github.com/michelle-burton"
-  }
+  },
+  {
+      "name": "Rockette's Image",
+      "caption": "Rockettes portrait",
+      "image": "/dogs/rockette1.jpg",
+      "github": "https://github.com/michelle-burton"
+    }
 ]
