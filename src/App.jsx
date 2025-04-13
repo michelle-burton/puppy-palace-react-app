@@ -1,6 +1,6 @@
 // src/App.jsx
 import { useEffect, useState } from 'react'
-import ContributorCard from './components/ContributorCard';
+import ContributorCard from './ContributorCard';
 import './App.css'
 
 function App() {
@@ -32,16 +32,6 @@ useEffect(() => {
             Contribute on GitHub →
         </a>
         </p>
-
-      {/* <div className="gallery">
-        {dogs.map((dog, index) => (
-          <div className="card" key={index}>
-            <img src={dog.image} alt={dog.caption} />
-            <h3>{dog.name}</h3>
-            <p>{dog.caption}</p>
-          </div>
-        ))}
-      </div> */}
         <div className="gallery">
             {dogs.map((dog, index) => (
                 <ContributorCard key={index} dog={dog} />

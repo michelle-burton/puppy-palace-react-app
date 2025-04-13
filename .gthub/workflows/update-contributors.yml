@@ -1,0 +1,34 @@
+name: Update Contributors File
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'public/contributors.json'
+
+jobs:
+  update-contributors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate CONTRIBUTORS.md
+        run: node scripts/generateContributorsMd.js
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CONTRIBUTORS.md
+          git commit -m "🤖 Auto-update CONTRIBUTORS.md from contributors.json"
+          git push
