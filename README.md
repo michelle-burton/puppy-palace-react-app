@@ -43,6 +43,11 @@ Welcome to the **Puppy Palace**, a community-driven React app where you can add 
    Add your entry to the array like this:
 
    ```json
+    {
+      "name": "Michelle",
+      "caption": "This is Rockette, my happy coding buddy.",
+      "image": "/dogs/rockette.jpg"
+   },
    {
      "name": "Your Name",
      "caption": "This is Boba, who supervises all my commits.",
