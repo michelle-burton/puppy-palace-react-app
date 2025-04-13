@@ -5,11 +5,17 @@ import './App.css'
 function App() {
   const [dogs, setDogs] = useState([])
 
-  useEffect(() => {
-    fetch('/contributors.json')
-      .then((res) => res.json())
-      .then(setDogs)
-  }, [])
+useEffect(() => {
+  fetch('/contributors.json')
+    .then((res) => res.json())
+    .then((data) => {
+      console.log('Fetched contributors:', data)
+      setDogs(data)
+    })
+    .catch((err) => {
+      console.error('Failed to load contributors.json:', err)
+    })
+}, [])
 
   return (
     <div className="container">
