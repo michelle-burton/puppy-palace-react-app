@@ -1,5 +1,6 @@
 // src/App.jsx
 import { useEffect, useState } from 'react'
+import ContributorCard from './components/ContributorCard';
 import './App.css'
 
 function App() {
@@ -32,7 +33,7 @@ useEffect(() => {
         </a>
         </p>
 
-      <div className="gallery">
+      {/* <div className="gallery">
         {dogs.map((dog, index) => (
           <div className="card" key={index}>
             <img src={dog.image} alt={dog.caption} />
@@ -40,7 +41,12 @@ useEffect(() => {
             <p>{dog.caption}</p>
           </div>
         ))}
-      </div>
+      </div> */}
+        <div className="gallery">
+            {dogs.map((dog, index) => (
+                <ContributorCard key={index} dog={dog} />
+            ))}
+        </div>
     </div>
   )
 }

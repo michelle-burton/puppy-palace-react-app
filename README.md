@@ -44,14 +44,16 @@ Welcome to the **Puppy Palace**, a community-driven React app where you can add 
 
    ```json
     {
-      "name": "Michelle",
+      "name": "Rockette",
       "caption": "This is Rockette, my happy coding buddy.",
-      "image": "/dogs/rockette.jpg"
+      "image": "/dogs/rockette.jpg",
+      "github": "https://github.com/michelle-burton"
    },
    {
      "name": "Your Name",
      "caption": "This is Boba, who supervises all my commits.",
-     "image": "/dogs/boba.jpg"
+     "image": "/dogs/boba.jpg",
+     "github": "https://github.com/YOUR-GITHUB-PROFILE
    }
 ---
 

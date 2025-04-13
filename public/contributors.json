@@ -2,11 +2,13 @@
   {
     "name": "Chulo",
     "caption": "Our in-house QA tester for food, toys, and cuddles.",
-    "image": "/dogs/chulo.webp"
+    "image": "/dogs/chulo.webp",
+    "github": "https://github.com/wo1vin"
   },
   {
-    "name": "Michelle",
+    "name": "Rockette",
     "caption": "This is Rockette, my happy coding buddy.",
-    "image": "/dogs/rockette.jpg"
+    "image": "/dogs/rockette.jpg",
+     "github": "https://github.com/michelle-burton"
   }
 ]

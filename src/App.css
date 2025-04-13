@@ -39,3 +39,15 @@
   color: #666;
   padding: 0 1rem;
 }
+
+.github-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #007acc;
+  text-decoration: none;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
