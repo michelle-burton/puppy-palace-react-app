@@ -48,3 +48,8 @@ Welcome to the **Puppy Palace**, a community-driven React app where you can add 
      "caption": "This is Boba, who supervises all my commits.",
      "image": "/dogs/boba.jpg"
    }
+---
+
+🐶 Love Puppy Palace? Give it a ⭐ to help it grow!
+
+[⭐ Star this repo](https://github.com/michelle-burton/puppy-palace-react-app/stargazers)
