@@ -5,7 +5,7 @@ Welcome to the Puppy Palace hall of fame! These amazing humans and their pups ha
 ---
 
 ## 🧑‍💻 Michelle & Rockette
-![Rockette](public/dogs/rockette.jpg)
+<img src="public/dogs/rockette.jpg" alt="Rockette" width="150"/>
 
 > This is Rockette, my happy coding buddy.
 

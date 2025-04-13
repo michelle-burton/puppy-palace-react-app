@@ -15,13 +15,13 @@ Welcome to the Puppy Palace hall of fame! These amazing humans and their pups ha
 
 ${contributors
   .map((contributor) => {
-    return \`### 🐶 \${contributor.name}
-![\${contributor.name} image](\${contributor.image})
+    return `### 🐶 ${contributor.name}
+<img src="${contributor.image}" alt="${contributor.name}" width="150"/>
 
-> \${contributor.caption}
+> ${contributor.caption}
 
-[View Human on GitHub](\${contributor.github})
-\`;
+[View Human on GitHub](${contributor.github})
+`;
   })
   .join('\n---\n')}
 
