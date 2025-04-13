@@ -15,7 +15,7 @@ Welcome to the **Puppy Palace**, a community-driven React app where you can add 
 
 ## 🌐 Live Demo
 
-[![Live on Render](https://img.shields.io/badge/Live%20Site-Puppy%20Palace-blue?style=flat-square&logo=render&logoColor=white)](https://your-render-url.onrender.com)
+[![Live on Render](https://img.shields.io/badge/Live%20Site-Puppy%20Palace-blue?style=flat-square&logo=render&logoColor=white)](https://puppy-palace-react-app.onrender.com)
 
 ---
 

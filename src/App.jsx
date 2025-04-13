@@ -20,7 +20,18 @@ useEffect(() => {
   return (
     <div className="container">
       <h1>🐾 Welcome to the Puppy Palace 🐾</h1>
-      <p>Add your pup and join the gallery!</p>
+      <p>
+        Add your pup and join the gallery!{' '}
+        <a
+            href="https://github.com/michelle-burton/puppy-palace-react-app/tree/main"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'underline', color: '#007acc' }}
+        >
+            Contribute on GitHub →
+        </a>
+        </p>
+
       <div className="gallery">
         {dogs.map((dog, index) => (
           <div className="card" key={index}>
