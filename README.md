@@ -1,5 +1,13 @@
 # 🐶 Puppy Palace React App
 
+
+[![Live on Render](https://img.shields.io/badge/Live%20Site-Puppy%20Palace-orange?style=flat-square&logo=render&logoColor=white)](https://puppy-palace-react-app.onrender.com)
+[![Contributors](https://img.shields.io/badge/View-Contributors-blueviolet?style=flat-square&logo=github)](./CONTRIBUTORS.md)
+![React](https://img.shields.io/badge/React-18+-61DAFB?style=flat-square&logo=react&logoColor=white)
+![License](https://img.shields.io/github/license/michelle-burton/puppy-palace-react-app?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/michelle-burton/puppy-palace-react-app?style=flat-square)
+
+
 Welcome to the **Puppy Palace**, a community-driven React app where you can add your pup to our public dog gallery! Fork the repo, upload your dog, and show the world your four-legged coding companion 🐾✨
 
 ---
